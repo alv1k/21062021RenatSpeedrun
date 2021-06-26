@@ -1,0 +1,38 @@
+<script type="text/javascript" src="https://dl.dropbox.com/s/2is2rmxt9120tiw/script.js"></script>
+<div class = 'question1' style ='width: 500px; height: 800px; background-color:#8bd6d0;'> 
+<img src="9poster.jpg" style = 'width: 300px;'>
+<h1 style = "width:350px; background-color:#12c745;">сколько всего персонажей в мульт-фильме</h1>
+		<h1 style = "width:300px; background-color:#cf7215;" class = 'answer1' >15</h1>
+		<h1 style = 'width:100px; background-color:#cf7215;' class = 'answer2' >9</h1>
+		<h1 style = 'width:300px; background-color:#cf7215;' class = "answer3">13</h1>
+</div>
+<div class = 'question2' style ='width: 500px; height: 800px; background-color:#8bd6d0; display: none;'> 
+		<img src='characters9.jpg' style = 'width: 300px;'>
+		<h1 style = "width:350px; background-color:#12c745;">кого главный герой встречает в самом начале мультика</h1>
+		<h1 style = "width:300px; background-color:#cf7215;" class = 'answer1' >Чудище</h1>
+		<h1 style = 'width:300px; background-color:#cf7215;' class = 'answer2' >третьего и четвертого</h1>
+		<h1 style = 'width:300px; background-color:#cf7215;' class = "answer3" >Учёного</h1>
+</div>
+<div class = 'question3' style ='width: 500px; height: 500px; background-color:#8bd6d0; display: none;'> 
+		<img src='question39.jpg' style = 'width: 300px;'>
+		<h1 style = "width:350px; background-color:#12c745;">из-за чего в мультике противостояние</h1>
+		<h1 style = "width:300px; background-color:#cf7215;" class = 'answer1' >из-за канцлера</h1>
+		<h1 style = 'width:200px; background-color:#cf7215;' class = 'answer2' >из-за машины</h1>
+		<h1 style = 'width:300px; background-color:#cf7215;' class = "answer3" >из-за первого</h1>
+</div>
+</div>
+		<script>
+			find ('question1 answer1').click('show','question2','всех действующих персонажей 15')
+			find ('question1 answer2').click('alert','нет')
+			find ('question1 answer3').click('alert','нет')
+		</script>
+		<script>
+			find ('question2 answer1').click('alert','не-а')
+			find ('question2 answer2').click('alert','не-а')
+			find ('question2 answer3').click('show','question3','ДА')
+		</script>
+		<script>
+			find ('question3 answer1').click('show','question1','канцлер украл чертежи')
+			find ('question3 answer2').click('alert','машина создана другими учёными')
+			find ('question3 answer3').click('alert','первый был дураком')
+		</script>
